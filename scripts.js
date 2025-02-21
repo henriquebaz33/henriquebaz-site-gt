@@ -43,3 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', handleScrollAnimations);
     handleScrollAnimations();
 });
+
+document.getElementById('meuBotao').addEventListener('click', function() {
+    fbq('track', 'PageView');
+  });
